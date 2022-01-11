@@ -11,7 +11,8 @@
 # sed -i 's/\"#src-git\"/\"src-git\"/g' feeds.conf.default
 
 # Add a feed source
-# sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+sed -i '$a src-git smstool https://github.com/4IceG/luci-app-sms-tool.git' feeds.conf.default
 
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
