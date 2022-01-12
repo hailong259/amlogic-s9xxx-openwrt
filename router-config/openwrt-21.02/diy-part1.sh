@@ -17,4 +17,5 @@ sed -i '$a src-git smstool https://github.com/4IceG/luci-app-sms-tool.git' feeds
 
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
+rm -rf package/network/services/{dnsmasq}
 
