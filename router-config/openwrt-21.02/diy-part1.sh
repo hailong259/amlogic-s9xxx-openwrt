@@ -11,6 +11,7 @@
 # sed -i 's/\"#src-git\"/\"src-git\"/g' feeds.conf.default
 
 # Add a feed source
+sed -i '$a src-git diskman https://github.com/lisaac/luci-app-diskman.git' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/hailong259/helloworld.git' feeds.conf.default
 sed -i '$a src-git smstool https://github.com/4IceG/luci-app-sms-tool.git' feeds.conf.default
