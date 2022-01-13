@@ -12,7 +12,7 @@
 
 # Add a feed source
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/hailong259/helloworld.git' feeds.conf.default
 sed -i '$a src-git smstool https://github.com/4IceG/luci-app-sms-tool.git' feeds.conf.default
 
 # other
